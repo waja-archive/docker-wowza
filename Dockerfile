@@ -1,5 +1,5 @@
-FROM sameersbn/ubuntu:14.04.20151213
-MAINTAINER sameer@damagehead.com
+FROM waja/debian:jessie
+MAINTAINER waja@cyconet.org
 
 ENV WOWZA_VERSION=4.1.2 \
     WOWZA_DATA_DIR=/var/lib/wowza \
